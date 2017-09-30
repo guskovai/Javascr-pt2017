@@ -4,15 +4,16 @@
 body .js-console {
   margin: 0;
   padding: 5px 10px;
-  background-color: black;
+  background-color: darkseagreen;
   width: 800px;
   height: 500px;
   font-family: Consolas;
   font-size: 18px;
-  color: white;
+  color: lightgoldenrodyellow;
   overflow-x: hidden;
   overflow-y: scroll;
   word-break: break-all;
+    -webkit-border-radius: 10px;
 }
 body .js-console > p {
   margin: 0;
@@ -31,10 +32,12 @@ body .js-console > p > br {
 body input[type=text] {
   border:1px solid black;
   padding:5px 15px;
-  background-color:black;
-  color:white;
+  background-color:darkseagreen;
+  color: darkslategray;
   font-family:Consolas;
   margin-bottom:5px;
+    -webkit-border-radius: 5px;
+    font-size: 20px;
 }
 body a {
   color:black;
@@ -43,7 +46,10 @@ body a {
   text-decoration:none;
   display:inline-block;
   margin: 15px 0;
+  -webkit-border-radius: 5px;  
+    
 }
 body a:hover{
   text-decoration:underline;
+   background-color:skyblue; 
 }
