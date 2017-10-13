@@ -1,6 +1,6 @@
 let s=14, ss,
     inArr=[2,1,2,4,3,5,2,6];
-//        inArr=[2,1,2,4,5,5,2,6];
+
 function summ (arr){
     sum=0;
     for (let i in arr){
